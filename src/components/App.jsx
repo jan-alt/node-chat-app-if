@@ -9,7 +9,7 @@ import Home from './Home'
 import DrawerAppBar from './DrawerAppBar'
 import Login from './Login'
 import Register from './Register'
-import UserProvider from '../context/userContext';
+import UserProvider from '../context/UserContext';
 import Chats from '../pages/Chats';
 import getEnv from '../../utility/getEnv';
 
