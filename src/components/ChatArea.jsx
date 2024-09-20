@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { blue, indigo } from '@mui/material/colors';
 import {io} from 'socket.io-client'
 import api from '../config/api';
-import { useUser } from '../context/userContext';
+import { useUser } from '../context/UserContext';
 import autoScroll from '../../utility/autoScroll';
 
 const ChatArea = ({ selectedUser }) => {

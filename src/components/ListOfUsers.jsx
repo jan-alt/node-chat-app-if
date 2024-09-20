@@ -1,7 +1,7 @@
 import { Box, Button, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { indigo, blue, blueGrey } from '@mui/material/colors';
-import { useUser } from '../context/userContext';
+import { useUser } from '../context/UserContext';
 
 const ListOfUsers = ({ users, setSelectedUser }) => {
     const {logout} = useUser()
