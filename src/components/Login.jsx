@@ -3,7 +3,7 @@ import { indigo } from '@mui/material/colors'
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import api from '../config/api';
-import { useUser } from '../context/userContext';
+import { useUser } from '../context/UserContext';
 import { useNavigate } from 'react-router-dom';
 
 

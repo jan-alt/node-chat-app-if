@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import { blue, pink } from '@mui/material/colors';
-import { useUser } from '../context/userContext';
+import { useUser } from '../context/UserContext';
 import ListOfUsers from '../components/ListOfUsers';
 import ChatArea from '../components/ChatArea';
 import Welcome from '../components/Welcome';
